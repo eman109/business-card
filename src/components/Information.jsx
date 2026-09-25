@@ -1,13 +1,12 @@
 function Information(){
     return(
-        <main>
-        <img src="src/assets/spiderman.jpg"/>
-        <div>
+        <main className="info">
+        <div className="info-text">
         <h1>Peter Parker</h1>
         <span>New York savior</span>
-        <small>pete.website</small>
+        <a href="/">pete.website</a>
         </div>
-        <div>
+        <div className="buttons">
             <button>Email</button>
             <button>LinkedIn</button>
         </div>

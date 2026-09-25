@@ -1,6 +1,6 @@
 function Interests(){
     return(
-        <div>
+        <div className="interests">
         <h2>Interests</h2>
         <p>
             Photography enthusiast. Science nerd. Web-slinger. 
