@@ -1,6 +1,6 @@
 function Information(){
     return(
-        <>
+        <main>
         <img src="src/assets/spiderman.jpg"/>
         <div>
         <h1>Peter Parker</h1>
@@ -11,7 +11,7 @@ function Information(){
             <button>Email</button>
             <button>LinkedIn</button>
         </div>
-        </>
+        </main>
     )
 }
 export default Information
