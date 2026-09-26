@@ -2,11 +2,18 @@ body{
   margin: 0;
   min-height: 100vh;
   font-family: Inter, sans-serif;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.3)),
-  url(src/assets/spiderman.jpg);
-  background-repeat: no-repeat;
-  background-size:cover ;
 }
+
+.app-content {
+  min-height: 100vh;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.3)),
+        url("./assets/spiderman.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .info{
   place-items: center;
 }
@@ -43,14 +50,16 @@ body{
 
 .about{
   padding: 50px 50px;
-  place-items: center;
-  text-align: center;
+  /* place-items: center;
+  text-align: center; */
   color: white;
 }
 
 .interests{
-  place-items: center;
-  text-align: center;
+  
+  padding: 50px 50px;
+  /* place-items: center;
+  text-align: center; */
   color: white;
 }
 
@@ -80,3 +89,17 @@ body{
   gap: 8px;
 }
 
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color:#161619 ;
+  height: 70px;
+  margin-bottom: 0;
+}
+
+.footer img{
+  width: 30px;
+  height:30px;
+}

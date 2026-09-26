@@ -5,10 +5,12 @@ import Footer from "./components/Footer.jsx"
 function App(){
   return(
     <>
+    <main className="app-content">
     <Information />
     <About/>
     <Interests/>
     <Footer />
+    </main>
     </>
   )
 }
