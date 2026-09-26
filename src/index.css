@@ -54,3 +54,29 @@ body{
   color: white;
 }
 
+.email img{
+  width: 16px;
+  height: 16px;
+  
+}
+
+.linkedin img{
+  width: 16px;
+  height: 16px;
+}
+
+.linkedin{
+  background-color: #5093E2;
+  color: white;
+}
+
+.email, 
+.linkedin{
+  padding: 10px 50px 10px 50px;
+  display: flex;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 15px;
+  gap: 8px;
+}
+

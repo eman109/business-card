@@ -7,8 +7,15 @@ function Information(){
         <a href="/">pete.website</a>
         </div>
         <div className="buttons">
-            <button>Email</button>
-            <button>LinkedIn</button>
+            <button className="email">
+                <img src="src/assets/email.png" alt=""/>
+                Email
+            </button>
+            <button className="linkedin">
+                <img src="src/assets/linkedin.png" alt=""/>
+                LinkedIn
+
+            </button>
         </div>
         </main>
     )
